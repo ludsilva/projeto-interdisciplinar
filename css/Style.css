@@ -10,6 +10,10 @@
     outline: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-image: url(../img/Fundo_academia.jpg);
     background-repeat: no-repeat;
