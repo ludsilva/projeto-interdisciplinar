@@ -37,7 +37,6 @@ a {
     float: left;
     background-color: black;
     opacity: 65%;
-
 }
 
 
@@ -70,13 +69,16 @@ a {
 }
 
 .main {
+    position: relative;
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding: 0;
     margin: 0;
     float: left;
-    /*background-color: #D9D9D9;*/
-    position: relative;
 }
 
 
@@ -106,6 +108,15 @@ a {
     padding-top: 12px;
 }
 
+.bt-entrar a {
+    color: white;
+    text-decoration: none;
+}
+
+.bt-entrar a:hover {
+    color: #D9D9D9;
+}
+
 .menu-vertical {
     background-color: black;
     float: left;
@@ -124,7 +135,6 @@ a {
     height: auto;
     border-radius: 8px;
     padding: 15px;
-    margin-left: 220px;
     margin-top: 20px;
     margin-bottom: 20px;
 
@@ -190,4 +200,107 @@ a {
 .menu-top ul li a:hover {
     color: rgb(92, 92, 92);
     margin-bottom: 0;
+}
+
+.menu-conteudo {
+    float: left;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.bt-Cadastrar {
+    float: left;
+    width: 30%;
+}
+
+.bt-Cadastrar a {
+    color: white;
+    text-decoration: none;
+}
+
+.bt-Cadastrar a:hover {
+    color: #D9D9D9;
+}
+
+.cx-pesquisar {
+    float: right;
+    width: 30%;
+}
+
+.cx-pesquisar input {
+    float: right;
+    width: 150px;
+}
+
+.bt-Salvar {
+    float: left;
+    width: 30%;
+}
+
+.bt-Salvar a {
+    color: white;
+    text-decoration: none;
+}
+
+.bt-Salvar a:hover {
+    color: #D9D9D9;
+}
+
+.bt-Cancelar {
+    float: right;
+}
+
+.bt-Cancelar a {
+    color: white;
+    text-decoration: none;
+}
+
+.bt-Cancelar a:hover {
+    color: #D9D9D9;
+}
+
+.bt-lixo {
+    color: rgb(233, 110, 110);
+}
+
+.bt-lapis {
+    color: rgb(84, 201, 84);
+}
+
+.form-fin {
+    width: 100%;
+    float: left;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.form-fin div {
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+.modalidade-fin {
+    width: 50%;
+    float: left;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.modalidade-fin div {
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+    margin: 0;
+
+}
+
+#titulo-fin {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+
 }
