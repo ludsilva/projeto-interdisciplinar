@@ -304,3 +304,12 @@ a {
     margin-top: 15px;
 
 }
+
+.filtros-relatorios div {
+    width: 30%;
+    float: left;
+    padding-right: 30px;
+    margin: 0;
+
+
+}
