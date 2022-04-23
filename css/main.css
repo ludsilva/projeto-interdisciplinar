@@ -137,7 +137,7 @@ a {
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
 .menu-vertical ul {
@@ -206,6 +206,8 @@ a {
     float: left;
     width: 100%;
     padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .bt-Cadastrar {
@@ -295,14 +297,12 @@ a {
     float: left;
     padding-right: 30px;
     margin: 0;
-
 }
 
 #titulo-fin {
     float: left;
     width: 100%;
     margin-top: 15px;
-
 }
 
 .filtros-relatorios div {
@@ -310,6 +310,62 @@ a {
     float: left;
     padding-right: 30px;
     margin: 0;
+}
 
+.cad-client {
+    width: 45%;
+    float: left;
+    padding-right: 15px;
+    margin-top: 20px;
+}
 
+.cad-client-nome {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.cad-client-sobrenome {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.cad-client-cpf {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.cad-client-nasc {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.cad-client-email {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+
+}
+
+.cad-client-tel {
+    width: 50%;
+    float: left;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.cad-client-mod {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: Clarendon Blk BT;
+    color: rgb(71, 71, 71);
 }
